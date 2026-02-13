@@ -1,0 +1,17 @@
+{
+  "seed": 31,
+  "metrics": {
+    "rmse": {
+      "value": 0.016944718864554346,
+      "tolerance": 1e-09
+    },
+    "mean_rate_hz": {
+      "value": 1.666666666666667,
+      "tolerance": 1e-09
+    },
+    "mean_corr": {
+      "value": 0.9573567893349473,
+      "tolerance": 1e-09
+    }
+  }
+}

@@ -1,0 +1,17 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Local tool caches
+.mpl/
+.fontcache/
+.pycache/
+
+# Local run outputs
+outputs/
+outputs_*/
+
+# Notebook scratch
+notebooks/tmp_sweep.yaml
