@@ -1,0 +1,38 @@
+simulation_config:
+  name: figure3_baseline
+  t_start: 0.0
+  t_stop: 0.35
+  dt: 0.0001
+  seed: 0
+  max_spikes_per_step: 2048
+  record_voltage: true
+  record_rate: true
+  record_command: true
+metadata:
+  experiment_name: figure3_baseline
+  seed: 0
+  created_at_utc: '2026-02-13T08:48:02.367507+00:00'
+  runtime_seconds: 0.052841291999999984
+  git_commit: afeb1a3f28b1319194b58b783bb7f1d3955a5c9d
+  package_version: 0.1.0
+extra_config:
+  figure3_config:
+    N: 80
+    J: 8
+    lambda_s: 0.0
+    lambda_d: 10.0
+    lambda_V: 20.0
+    m: 1.0e-06
+    n: 1.0e-05
+    sigma_V: 0.0
+    sigma_s: 0.01
+    dt: 0.0001
+    t_start: 0.0
+    t_stop: 0.35
+    input_cutoff: 0.22
+    perturb_time: 0.24
+    perturb_delay: 0.001
+    seed: 0
+  kernel_shape:
+  - 8
+  - 80

@@ -1,0 +1,27 @@
+{
+  "config": {
+    "N": 80,
+    "J": 8,
+    "lambda_s": 0.0,
+    "lambda_d": 10.0,
+    "lambda_V": 20.0,
+    "m": 1e-06,
+    "n": 1e-05,
+    "sigma_V": 0.0,
+    "sigma_s": 0.01,
+    "dt": 0.0001,
+    "t_start": 0.0,
+    "t_stop": 0.35,
+    "input_cutoff": 0.22,
+    "perturb_time": 0.24,
+    "perturb_delay": 0.001,
+    "seed": 0
+  },
+  "first_divergence_time": 0.24036867676478993,
+  "num_spikes_baseline": 39,
+  "num_spikes_perturbed": 40,
+  "figure_paths": {
+    "png": "outputs/figure3/20260213_084802/figures/figure3.png",
+    "svg": "outputs/figure3/20260213_084802/figures/figure3.svg"
+  }
+}

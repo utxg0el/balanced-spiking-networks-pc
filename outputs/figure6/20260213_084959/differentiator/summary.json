@@ -1,0 +1,32 @@
+{
+  "config": {
+    "name": "figure6_differentiator",
+    "t_start": 0.0,
+    "t_stop": 0.35,
+    "dt": 0.0001,
+    "seed": 1,
+    "max_spikes_per_step": 2048,
+    "record_voltage": true,
+    "record_rate": true,
+    "record_command": true
+  },
+  "metadata": {
+    "experiment_name": "figure6_differentiator",
+    "seed": 1,
+    "created_at_utc": "2026-02-13T08:50:00.027680+00:00",
+    "runtime_seconds": 0.059147167,
+    "git_commit": "afeb1a3f28b1319194b58b783bb7f1d3955a5c9d",
+    "package_version": "0.1.0"
+  },
+  "summary": {
+    "rmse": 0.006497301173090415,
+    "mean_rate_hz": 12.857142857142858,
+    "median_rate_hz": 11.428571428571429,
+    "mean_cv2": 1.3175388155531995,
+    "median_cv2": 1.3214078485802765,
+    "num_spikes": 180.0,
+    "mean_corr": 0.005148984639581634
+  },
+  "num_spikes": 180,
+  "num_steps": 3500
+}

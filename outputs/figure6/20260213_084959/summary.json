@@ -1,0 +1,38 @@
+{
+  "config": {
+    "N": 40,
+    "J": 2,
+    "kernel_norm": 0.03,
+    "lambda_d": 10.0,
+    "lambda_V": 20.0,
+    "m": 1e-06,
+    "n": 0.0,
+    "sigma_V": 0.001,
+    "dt": 0.0001,
+    "t_start": 0.0,
+    "t_stop": 0.35,
+    "seed": 1
+  },
+  "differentiator_summary": {
+    "rmse": 0.006497301173090415,
+    "mean_rate_hz": 12.857142857142858,
+    "median_rate_hz": 11.428571428571429,
+    "mean_cv2": 1.3175388155531995,
+    "median_cv2": 1.3214078485802765,
+    "num_spikes": 180.0,
+    "mean_corr": 0.005148984639581634
+  },
+  "oscillator_summary": {
+    "rmse": 0.015847522307981386,
+    "mean_rate_hz": 11.428571428571427,
+    "median_rate_hz": 11.428571428571429,
+    "mean_cv2": 1.1718459069646971,
+    "median_cv2": 1.163885570808218,
+    "num_spikes": 160.0,
+    "mean_corr": 0.9098312529854313
+  },
+  "figure_paths": {
+    "png": "outputs/figure6/20260213_084959/figures/figure6.png",
+    "svg": "outputs/figure6/20260213_084959/figures/figure6.svg"
+  }
+}
